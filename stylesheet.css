@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+  }
+  h1{
+    color: aqua;
+  }
+  h2{
+    color:aqua
+  }
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 30px;
+    padding: 10px 0;
+    display: none
+    }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://www.hostinger.co.id/tutorial/wp-content/uploads/sites/11/2020/10/22-Contoh-Website-e-Commerce-Terbaik-dengan-Desain-Menarik.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .signup {
+    background-color: #239b76;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  .lesson img {
+    border-radius: 38%;
+  }
+  .lesson-wrapper h2{
+    color:red;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b91111e3;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+    color: cyan;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #00FFFF;
+    cursor: pointer;
+    box-shadow: 0 7px #0f72c4;
+    color: black;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: #0e6097;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+  .logo {
+    width: 80px;
+    margin-top: 10px;
+  }
+  .title {
+    padding: 0 35px;
+    color: #00FFFF;
+    font-size: 50px;
+    padding-left: 15px;
+    font-family: fantasy;
+  }
+  .title span {
+    padding: 0 35px;
+    color: black;
+    font-size: 50px;
+    padding-left: 15px;
+    font-family: fantasy;
+  }
+  .header-left {
+    float: left;
+  }
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: black;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-size: 20px;
+  
+  }
+  .header-right a:hover {
+    background-color:#24E4F7;
+  }
+  .footer {
+    background-color:#0e6097;
+    color: #fff;
+    height: 250px;
+    padding: 40px;
+  }
+  
+  .footer-logo {
+    float:left;
+    font-size: 32px;
+    color: black ;
+    font-family: fantasy;
+  }
+  .footer-logo span {
+    float:left;
+    font-size: 32px;
+    color:#00FFFF;
+    font-family: fantasy;
+  }
+  
+  li {
+    list-style: none;
+  }
+  .footer-list {
+    float: right;
+  }
+  .footer-list li {
+    padding-bottom: 10px;
+    color: black;
+    font-size: 30px;
+    font-family: fantasy;
+  }
+  .footer-icon {
+    float: left;
+    width: 20px;
+    margin: 0;
+  }
+  
+  .footer-icon {
+    position: relative;
+    animation: move 3s infinite alternate;
+  }
+  
+  #footer-icon{animation-timing-function: ease;}
+  
+  @keyframes move {
+    from {left: -300px;}
+    to {left: 0px;}
+  }
+  
+  
+  .heading-logo {
+    width: 80px
+  }
+  
+  .logo {
+    position: relative;
+    animation: mymove 1s 2 alternate-reverse;
+  }
+  
+  #logo {animation-timing-function: linear;}
+  
+  
+  @keyframes mymove {
+    from {left: -300px;}
+    to {left: 0px;}
+  }
+  
+  .container h3 {
+    display: grid;
+    place-items: center;
+  }
+  
+  .container h3 {
+    font-weight: normal;
+    outline: none;
+    text-transform: uppercase;
+    background: linear-gradient(to right,#7ed6df 0%,#fffb00 25%,#706fd3 50%,#130f40 75%,#f5f6fa 100%);
+    background-size: 400%;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    animation: gradasi 10s linear infinite;
+  
+  }
+  
+  #container h3{animation-timing-function: linear;}
+  
+  @keyframes gradasi{
+    to{
+      background-position: 400%;
+    }
+  
+  .container h3 {
+    display: grid;
+    place-items: center;
+  }
+  
+  .container h3 {
+    font-weight: normal;
+    outline: none;
+    text-transform: uppercase;
+    background: linear-gradient(to right,#7ed6df 0%,#fffb00 25%,#706fd3 50%,#130f40 75%,#f5f6fa 100%);
+    background-size: 400%;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    animation: gradasi 10s linear infinite;
+  
+  }
+  
+  #container h3{animation-timing-function: linear;}
+  
+  @keyframes gradasi{
+    to{
+      background-position: 400%;
+    }
+  }
